@@ -1,0 +1,11 @@
+CREATE DATABASE CURSOS
+ON PRIMARY(
+NAME = CURSOS,
+FILENAME = 'C:\Users\Felipe\Documents\GitHub\Curso-de-SQL-Server\Curso\cursos.MDF',
+SIZE = 16MB,
+MAXSIZE = 15MB,
+FILEGROWTH = 10%
+)
+
+USE CURSOS
+
